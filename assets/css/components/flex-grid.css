@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  max-width: calc(1200px - var(--l-gutter));
+  max-width: calc(1366px - var(--l-gutter));
   padding: calc(var(--l-gutter) / 2);
 }
 
@@ -240,6 +240,8 @@
     margin-left: var(--col-12);
   }
 }
+
+
 
 /** Medium Device and up */
 @media (min-width: 768px) {

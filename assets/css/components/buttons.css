@@ -1,0 +1,803 @@
+/* Colors */
+.color_container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.color_box {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.kleur_naam {
+    margin: 0px 3px;
+    align-self: center;
+
+}
+
+.kleur {
+    display: flex;
+    width: 50px;
+    height: 50px;
+
+}
+
+.hoofdkleur {
+    background-color: var(--c-primary);
+}
+
+.titlekleur {
+    background-color: var(--c-title);
+}
+
+.textkleur {
+    background-color: var(--c-text);
+}
+
+.footerkleur {
+    background-color: var(--c-footer);
+}
+
+.linkkleur {
+    background-color: var(--c-link);
+}
+
+
+
+
+/* Componenten */
+
+/* Top Bar */
+.topbar {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--t-primary);
+    font-size: 11px;
+    width: 100%;
+    height: 29px;
+    background-color: var(--c-primary);
+    box-sizing: border-box;
+    padding: 0px 5.3125rem;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+.topbar>p {
+    margin-right: 420px;
+
+}
+
+.topbar div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.topbar div a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--t-primary);
+}
+
+.icoonbar {
+    margin-right: 7px;
+    font-size: 12px;
+
+}
+
+.land {
+    color: black;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.icoon_top {
+    margin-right: -40px;
+}
+
+.land button {
+    background-color: var(--t-primary);
+    border: none;
+    height: 59px;
+    width: 42px;
+}
+
+.land:hover {
+
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 42px;
+}
+
+.land:focus {
+
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 42px;
+
+}
+
+/* END TOP BAR */
+
+/* Second bar */
+.mainmenu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    width: 100%;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.41);
+    box-sizing: border-box;
+    padding: 0px 5.3125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.fa-leaf {
+    color: white;
+    font-size: 50px;
+}
+
+.secondbar a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: var(--t-primary);
+    color: white;
+}
+
+.secondbar_underline {
+    padding-bottom: 5px;
+    padding-top: 7px;
+    border-bottom: 2px solid transparent;
+}
+
+.secondbar_underline:hover {
+    border-bottom: 2px solid white;
+}
+
+.reserveren_button {
+    background: white;
+    border-radius: 74.5px;
+    width: 149px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.reserveren_button a {
+    color: var(--c-text);
+
+}
+
+.reserveren_button:hover {
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+
+
+
+
+/* hamburger */
+.logogsm {
+    display:flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-self: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+.logogsm p {
+    font-size: 15px;
+    color: white;
+    font-family: var(--c-title)
+}
+
+.main_hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+
+.main_hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+
+.hamburger_icon {
+    width: 39px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 0px;
+    border-radius: 2px;
+}
+
+.HamburgerMenu ul {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.HamburgerMenu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+.hamburger {
+    width: auto;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 29px;
+    padding-right: 10px;
+    box-sizing: border-box;
+
+}
+
+.hoofdkleur_hamburger {
+    background-color: var(--c-primary)
+}
+
+.second_hamburger {
+    background-color: var(--c-text);
+    margin: 0;
+}
+
+.second_hamburger:hover {
+    background-color: var(--c-buttonactive)
+}
+
+.second_hamburger:active {
+    background-color: var(--c-buttonactive)
+}
+
+.main_hamburger {
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+/* buttons */
+
+/* slide out button */
+.slide_out {
+    width: 27px;
+    height: 27px;
+    background-color: var(--c-primary);
+    border-radius: 8px;
+    border: none;
+    margin-top: -38px;
+    color: white;
+    position: absolute;
+    right: 28px;
+}
+.slide_out:hover {
+color: #5E6163;
+}
+
+
+/* meer info button */
+
+.buttonflex {
+margin-bottom: 14px;
+position: relative;
+top: 35%;
+}
+/** Small Device and up */
+@media (min-width: 1px) {
+    .sbt_meerinfo {
+        width: 86.24px;
+        height: 29.12px;
+        border: none;
+        background-color: var(--c-primary);
+        color: white;
+        font-family: var(--t-primary);
+        font-size: 8.96px;
+        border-radius: 40.32px;
+        padding-left: 5.6px;
+        padding-right: 0px;
+        padding-top: 5.6px;
+        padding-bottom: 5.6px;
+    }
+
+    .arrow {
+        margin-left: 5.6px;
+        margin-right: 5.6px;
+    }
+
+    .sbt_meerinfo:hover {
+        background-color: rgb(33, 138, 37);
+
+    }
+}
+
+/** Medium Device and up */
+@media (min-width: 768px) {
+    .sbt_meerinfo {
+        width: 86.24px;
+        height: 29.12px;
+        border: none;
+        background-color: var(--c-primary);
+        color: white;
+        font-family: var(--t-primary);
+        font-size: 8.96px;
+        border-radius: 40.32px;
+        padding-left: 5.6px;
+        padding-right: 0px;
+        padding-top: 5.6px;
+        padding-bottom: 5.6px;
+    }
+
+    .arrow {
+        margin-left: 5.6px;
+        margin-right: 5.6px;
+    }
+
+    .sbt_meerinfo:hover {
+        background-color: rgb(33, 138, 37);
+
+    }
+}
+
+
+/** Large Device and up */
+@media (min-width: 992px) {
+    .sbt_meerinfo {
+        width: 126px;
+        height: 42.64px;
+        border: none;
+        background-color: var(--c-primary);
+        color: white;
+        font-family: var(--t-primary);
+        font-size: 13.2px;
+        border-radius: 26px;
+        padding-left: 8.2px;
+        padding-right: 0px;
+        padding-top: 8.2px;
+        padding-bottom: 8.2px;
+    }
+
+    .arrow {
+        margin-left: 8.2px;
+        margin-right: 8.2px;
+    }
+
+    .sbt_meerinfo:hover {
+        background-color: rgb(33, 138, 37);
+
+    }
+}
+
+/** Extra Large Device and up */
+@media (min-width: 1200px) {
+    .sbt_meerinfo {
+        width: 154px;
+        height: 52px;
+        border: none;
+        background-color: var(--c-primary);
+        color: white;
+        font-family: var(--t-primary);
+        font-size: 16px;
+        border-radius: 72px;
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .arrow {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .sbt_meerinfo:hover {
+        background-color: rgb(33, 138, 37);
+
+    }
+}
+
+
+/* responsive button BOEK NU*/
+
+/** Small Device and up */
+@media (min-width: 1px) {
+    .sbt_BOEKNU {
+        width: 73.92px;
+        height: 29.12px;
+        border: none;
+        background-color: var(--c-primary);
+        color: white;
+        font-family: var(--t-primary);
+        font-size: 8.96px;
+        border-radius: 40.32px;
+        padding-left: 5.6px;
+        padding-right: 0px;
+        padding-top: 5.6px;
+        padding-bottom: 5.6px;
+    }
+
+    .arrow {
+        margin-left: 5.6px;
+        margin-right: 5.6px;
+    }
+
+    .sbt_BOEKNU:hover {
+        background-color: rgb(33, 138, 37);
+
+    }
+}
+
+/** Medium Device and up */
+@media (min-width: 768px) {
+    .sbt_BOEKNU {
+        width: 73.92px;
+        height: 29.12px;
+        border: none;
+        background-color: var(--c-primary);
+        color: white;
+        font-family: var(--t-primary);
+        font-size: 8.96px;
+        border-radius: 40.32px;
+        padding-left: 5.6px;
+        padding-right: 0px;
+        padding-top: 5.6px;
+        padding-bottom: 5.6px;
+    }
+
+    .arrow {
+        margin-left: 5.6px;
+        margin-right: 5.6px;
+    }
+
+    .sbt_BOEKNU:hover {
+        background-color: rgb(33, 138, 37);
+
+    }
+}
+
+
+/** Large Device and up */
+@media (min-width: 992px) {
+    .sbt_BOEKNU {
+        width: 95px;
+        height: 42.64px;
+        border: none;
+        background-color: var(--c-primary);
+        color: white;
+        font-family: var(--t-primary);
+        font-size: 13.2px;
+        border-radius: 26px;
+        padding-left: 8.2px;
+        padding-right: 0px;
+        padding-top: 8.2px;
+        padding-bottom: 8.2px;
+    }
+
+    .arrow {
+        margin-left: 8.2px;
+        margin-right: 8.2px;
+    }
+
+    .sbt_BOEKNU:hover {
+        background-color: rgb(33, 138, 37);
+
+    }
+}
+
+/** Extra Large Device and up */
+@media (min-width: 1200px) {
+    .sbt_BOEKNU {
+        width: 132px;
+        height: 52px;
+        border: none;
+        background-color: var(--c-primary);
+        color: white;
+        font-family: var(--t-primary);
+        font-size: 16px;
+        border-radius: 72px;
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .arrow {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .sbt_BOEKNU:hover {
+        background-color: rgb(33, 138, 37);
+
+    }
+}
+
+/** footer **/
+
+/* Footer web */
+
+footer {
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: var(--c-footer);
+}
+
+.footertop {
+
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 288px;
+    padding-left: 288px;
+}
+
+.footertop ul a,
+footer ul {
+
+    color: white;
+    font-size: 18px;
+    font-family: var(--t-primary);
+    text-decoration: none;
+
+}
+
+.footertop ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer_socialemedia_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 23px;
+
+}
+
+.fa-leaf {
+    font-size: 30px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.footer_socialemedia li {
+    width: 40px;
+    height: 40px;
+    background-color: var(--c-text);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer_socialemedia li a i {
+    font-size: 25px;
+}
+
+.footer_socialemedia_icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_contact li {
+    color: white;
+    font-family: var(--t-primary);
+    font-size: 12px;
+    list-style-type: none;
+    margin-top: 14px;
+
+}
+
+.footer_line {
+    height: 2px;
+    width: 1196px;
+    background-color: #5E6163;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 26px 90px;
+
+}
+
+.footer_end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0px 288px;
+    padding-bottom: 26px;
+}
+
+.footer_end li {
+    list-style-type: none;
+    margin-left: 27px;
+}
+
+.footer_end li a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.fa-copyright {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+
+/* phone footer */
+
+.phonefooter {
+    margin-top: 16px;
+    width: auto;
+    background-color: var(--c-footer);
+    padding-bottom: 20px;
+    max-height: 299px;
+
+
+}
+
+.phone_footer_information ul a {
+    color: white;
+    font-size: 18px;
+    font-family: var(--t-primary);
+    text-decoration: none;
+
+
+}
+
+.phone_footer_information ul {
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 56px;
+
+}
+
+.phone_footer_information ul li {
+    color: white;
+    font-size: 12px;
+    font-family: var(--t-primary);
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.phone_footer_information {
+    padding-top: 20px;
+    box-sizing: content-box;
+    width: 70%;
+}
+
+.phone_flex_box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.phone_reserveren {
+    margin-bottom: 20px;
+}
+
+.footer_phone_line {
+    height: 2px;
+    width: auto;
+    background-color: #5E6163;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 0 30px 20px 30px;
+
+}
+
+
+
+.phone_end li {
+    margin-top: 10px;
+}
+
+.footer_phone_socialemedia {
+    width: auto;
+    padding: 0px;
+    display: flex;
+
+
+}
+
+.phone_flex_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 56px;
+
+}
+
+.footer_phone_socialemedia div li {
+
+    background-color: var(--c-text);
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.footer_phone_socialemedia div li a {
+    color: white;
+    font-size: 22px;
+
+}
+
+.phone_end li a {
+    font-size: 9px;
+
+}
+
+.phone_end {
+    margin-bottom: 0px;
+}
+
+.padding_phone_terms {
+    padding: 0px;
+    ;
+}
+
+
+/** achtergrond foto **/
+
+
+
+.backgroundPicture {
+    background-image: url(../../images/background.jpg);
+    width: 100%;
+    height: 384px;
+    background-size: cover;
+    background-position-y: -450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    justify-self: center;
+    align-self: center;
+    font-family: var(--t-banners);
+    color: white;
+    font-size: 110px;
+    text-shadow: 4px 3px 0 black;
+
+}

@@ -7,3 +7,106 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+/* layout */
+body {
+    font-family: var(--t-primary);
+}
+
+.marges {
+    margin-right: 82px;
+    margin-left: 82px;
+}
+
+/* verdwijnen div elementen */
+.verdwijn {
+    display: none;
+}
+
+.verdwijngsm {
+    display: block;
+}
+
+@media (min-width: 575.99999px) {
+    .verdwijn {
+        display: block;
+    }
+
+    .verdwijngsm {
+        display: none;
+    }
+
+
+
+}
+
+
+/* top intro text */
+.title h2 {
+    font-size: 18px;
+    align-self: center;
+    font-family: var(--t-primary);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 38px;
+}
+
+@media (min-width: 575.99999px) {
+    .title h2 {
+        align-self: center;
+        font-family: var(--t-primary);
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin: 40px 0px 0px 0px;
+    }
+}
+
+.introtext p {
+    font-size: 12px;
+    color: var(--c-text);
+    margin-top: 0px;
+}
+
+@media (min-width: 575.99999px) {
+    .introtext p {
+        font-size: 17px;
+        color: var(--c-text);
+        margin-top: 0px;
+    }
+}
+
+.introtext {
+    display: flex;
+    justify-content: center;
+}
+
+/* meer info boxen */
+.meerinfoboxen {
+    margin-bottom: 22px;
+}
+
+@media (min-width: 575.99999px) {
+    .meerinfoboxen {
+        margin-bottom: 50px;
+    }
+}
+
+.meerinfoboxen h2 {
+    font-family: var(--t-primary);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 14px 0px 30px 0px;
+}
+
+.meerinfoboxen p {
+    font-family: var(--t-primary);
+    font-size: 15px;
+    color: var(--c-text);
+    margin: 0px 0px 14px 0px;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+}
+

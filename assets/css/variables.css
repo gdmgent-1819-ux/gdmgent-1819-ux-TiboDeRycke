@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
 
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
-
+  --c-primary: #34BC38;
+  --c-title: #000000;
+  --c-text: #5E6163;
+  --c-footer: #707070;
+  --c-link: #33B5ED;
+  --c-buttonactive: #949494;
   /**
    * Layout
    */
@@ -13,14 +18,13 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
+  --t-primary: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  --t-banners: 'Oleo Script Swash Caps', cursive;
+  --t-gsmprimary: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  --t-gsmbanners: 'Oleo Script Swash Caps', cursive;
 
   --t-headline: var(--t-primary);
   --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
 }
 
 

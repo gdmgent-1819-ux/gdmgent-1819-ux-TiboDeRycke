@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-debug>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,15 +8,246 @@
     <title>Styleguide</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleguide.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
+    <div class="container">
+
+        <!--Kleuren-->
+        <h1 class="sg-title">Digital styleguide</h1>
+        <h2 class="sg-subtitle">Kleuren</h2>
+
+        <div class="color_container">
+            <!--Hoofdkleur-->
+            <div class="color_box">
+                <div class="kleur hoofdkleur"></div>
+                <p class="kleur_naam">Hoofdkleur <br>#34BC38</br></p>
+            </div>
+            <!--Title kleur-->
+            <div class="color_box">
+                <div class="kleur titlekleur"></div>
+                <p class="kleur_naam">Title kleur <br>#1F1F1F</br></p>
+            </div>
+            <!--Text kleur-->
+            <div class="color_box">
+                <div class="kleur textkleur"></div>
+                <p class="kleur_naam">Text kleur <br>#5E6163</br></p>
+            </div>
+            <!--Footer kleur-->
+            <div class="color_box">
+                <div class="kleur footerkleur"></div>
+                <p class="kleur_naam">Footer kleur<br>#707070</br></p>
+            </div>
+            <!--Link kleur-->
+            <div class="color_box">
+                <div class="kleur linkkleur"></div>
+                <p class="kleur_naam">Link Kleur<br>#33B5ED;</br></p>
+            </div>
+
+        </div>
+
+        <!--Typografie-->
+
+        <h2 class="sg-subtitle">Typografie Web</h2>
+        <p Class="banner-title">Banner Oleo Script Swash Caps 110</p>
+        <h1 class="Main-title">Main Title Segoe UI 30 BOLD</h1>
+        <p class="main-text">Main text Segoe UI 17 Regular</p>
+        <h2 class="second-title">Second title Segoe UI 25 BOLD</h2>
+        <p class="second-text">Secondary text Segoe UI 15 regular</p>
+
+        <h2 class="sg-subtitle">Typografie GSM</h2>
+        <p Class="banner-title-gsm">Banner Oleo Script Swash Caps 50</p>
+        <h1 class="Main-title-gsm">Main Title Segoe UI 14 BOLD</h1>
+        <p class="main-text-gsm">Main text Segoe UI 12 Regular</p>
+
+        <!--Knoppen-->
+        <h2 class="sg-subtitle">Knopppen</h2>
+        <button type="button" class="sbt_meerinfo">MEER INFO <i class="arrow fas fa-angle-right"></i></button>
+        <button type="button" class="sbt_BOEKNU"> BOEK NU <i class="arrow fas fa-angle-right"></i></button>
+        <div class="styleguide_padding"></div>
+        <button type="button" class="sbt_verzend"> Verzend</button>
+        <div class="styleguide_padding"></div>
+        <button type="button" class="slide_out"><i class="fas fa-chevron-down"></i></button>
+        <!--Formulier-->
+        <h2 class="sg-subtitle">Formulier</h2>
+        <div class="formulier">
+            <form>
+                <input class="naam_familienaam formulier_contact" type="text" placeholder="Voornaam">
+                <input class="naam_familienaam formulier_contact" type="text" placeholder="Achternaam">
+                <input class="form_email formulier_contact" type="text" placeholder="Email addres">
+                <textarea class="form_vraag formulier_contact" type="text" placeholder="Uw vraag"></textarea>
+                <button type="button" class="form_button sbt_verzend"> Verzend</button>
+            </form>
+        </div>
+        <!--Componenten-->
+        <h2 class="sg-subtitle">Componenten</h2>
+
+        <!--Topbar web-->
+        <div>
+            <div class="topbar">
+                <p>Welkom bij vakantieland!</p>
+                <div class="icoon_top"><i class="icoonbar fas fa-envelope"></i><a href="">Vakantieland@hotmail.com</a>
+                </div>
+                <div class="icoon_top"><i class="icoonbar fas fa-mobile-alt"></i><a href="">+32 478 19 73 84</a></div>
+                <div class="icoon_top"><i class="icoonbar far fa-compass"></i><a href="">Polenheide 7, 3540
+                        Oudenaarde</a></div>
+                <div>
+                    <div class="land"><button>NL</button></div>
+                    <div class="land"><button>FR</button></div>
+                    <div class="land"><button>ENG</button></div>
+                </div>
+            </div>
+            <!--Secondbar web-->
+            <div class="secondbar">
+                <ul class="mainmenu">
+                    <li class="menu-item"><i class="fas fa-leaf"></i></li>
+                    <li class="menu-item"><a href="" target="_self" class="secondbar_underline" name="HOME">HOME</a>
+                    </li>
+                    <li class="menu-item"><a href="" target="_self" class="secondbar_underline"
+                            name="GROEPEN">GROEPEN</a></li>
+                    <li class="menu-item"><a href="" target="_self" class="secondbar_underline"
+                            name="VERBLIJF">VERBLIJF</a></li>
+                    <li class="menu-item"><a href="" target="_self" class="secondbar_underline"
+                            name="ETEN EN DRINKEN">ETEN EN DRINKEN</a></li>
+                    <li class="menu-item"><a href="" target="_self" class="secondbar_underline"
+                            name="ACTIVITEITEN">ACTIVITEITEN</a></li>
+                    <li class="menu-item"><a href="" target="_self" class="secondbar_underline"
+                            name="CONTACT">CONTACT</a></li>
+                    <li class="menu-item">
+                        <div class="reserveren_button"><a href="" target="_self" name="RESERVEREN"
+                                class="">RESERVEREN</a></div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <!--Footer Web -->
+        <footer>
+            <div class="footertop">
+                <ul class="footer_socialemedia">
+                    <div class="footer_socialemedia_logo"><i class="fas fa-leaf"></i>
+                        <div>Vakantieland</div>
+                    </div>
+                    <div class="footer_socialemedia_icon">
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </div>
+                </ul>
+                <ul class="footer_contact"><a href="" name="">Contact ons</a>
+                    <li>Vakantieland@hotmail.com</li>
+                    <li>Polenheide 7, 3540 Oudenaarde,
+                        <br> België</li>
+                    <li>+32 478 19 73 84</li>
+                </ul>
+                <ul><a href="" name="Reserveren">Reserveren</a>
+
+                </ul>
+            </div>
+            <div class="footer_line"></div>
+            <ul class="footer_end">
+                <li><a href="">Terms of services</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><i class="far fa-copyright"></i><a href="">2019 vakantieland</a></li>
+            </ul>
+        </footer>
+
+        <!--Padding-->
+        <div class="styleguide_padding"></div>
+        <!--Hamburger top bar-->
+
+<div class="flex_phone">
+    <div class="margin_phone_right">
+        <div class="HamburgerMenu">
+            <ul>
+                <li class="main_hamburger hamburger hoofdkleur_hamburger">
+                    <div class="logogsm"><i class="fas fa-leaf"></i>
+                        <p>Vakantieland</p>
+                    </div>
+                    <div>
+                        <div class="hamburger_icon"></div>
+                        <div class="hamburger_icon"></div>
+                        <div class="hamburger_icon"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--Hamburger full-->
+
+        <div class="HamburgerMenu">
+            <ul>
+                <li class="main_hamburger hamburger hoofdkleur_hamburger">
+                    <div class="logogsm"><i class="fas fa-leaf"></i>
+                        <p>Vakantieland</p>
+                    </div>
+                    <div>
+
+                        <div class="hamburger_icon"></div>
+                        <div class="hamburger_icon"></div>
+                        <div class="hamburger_icon"></div>
+                    </div>
+
+                </li>
+
+                <li class="hamburger second_hamburger"><a href="" target="_self" class="Hamburger_Bar"
+                        name="HOME">HOME</a></li>
+                <li class="hamburger second_hamburger"><a href="" target="_self" class="Hamburger_Bar"
+                        name="GROEPEN">GROEPEN</a></li>
+                <li class="hamburger second_hamburger"><a href="" target="_self" class="Hamburger_Bar"
+                        name="VERBLIJF">VERBLIJF</a></li>
+                <li class="hamburger second_hamburger"><a href="" target="_self" class="Hamburger_Bar"
+                        name="ETEN EN DRINKEN">ETEN EN DRINKEN</a></li>
+                <li class="hamburger second_hamburger"><a href="" target="_self" class="Hamburger_Bar"
+                        name="ACTIVITEITEN">ACTIVITEITEN</a></li>
+                <li class="hamburger second_hamburger"><a href="" target="_self" class="Hamburger_Bar"
+                        name="CONTACTEN">CONTACTEN</a></li>
+                <li class="hamburger hoofdkleur_hamburger"><a href="" target="_self" class="Hamburger_Bar"
+                        name="RESERVEREN">RESERVEREN</a></li>
+            </ul>
+        </div>
+    </div>
+        <!--Footer phone!-->
+
+        <div class="phonefooter">
+            <div>
+                <div class="phone_flex_box">
+                    <div class="phone_footer_information">
+                        <ul class="footer_phone_contact"><a href="" name="">Contact ons</a>
+                            <li>Vakantieland@hotmail.com</li>
+                            <li>Polenheide 7, 3540 Oudenaarde,
+                                <br> België</li>
+                            <li>+32 478 19 73 84</li>
+                        </ul>
+                        <ul class="phone_reserveren"><a href="" name="Reserveren">Reserveren</a>
+
+                        </ul>
+                    </div>
+                    <ul class="footer_phone_socialemedia">
+                        <div class="phone_flex_icons">
+
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="padding_phone_terms phone_footer_information">
+                    <div class="footer_phone_line"></div>
+                    <ul class="phone_end">
+                        <li><a href="">Terms of services</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                        <li><i class="far fa-copyright"></i><a href="">2019 vakantieland</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
 </body>
+
 </html>

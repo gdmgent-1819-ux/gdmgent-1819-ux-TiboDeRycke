@@ -299,9 +299,13 @@
     color: white;
     position: absolute;
     right: 28px;
+    text-align: center;
 }
 .slide_out:hover {
 color: #5E6163;
+}
+.slide_out i {
+    text-align: center;
 }
 
 

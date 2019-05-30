@@ -741,6 +741,10 @@ color: #5E6163;
     font-family: var(--t-primary);
     color: white;
 }
+.secondbar a:focus {
+        background-color: rgba(255, 255, 255, 0.33);
+
+}
 
 .secondbar_underline {
     padding-bottom: 5px;
@@ -754,6 +758,7 @@ color: #5E6163;
 .secondbar {
     margin-bottom: 16px;
 }
+
 
 .reserveren_button {
     background: white;
@@ -776,7 +781,12 @@ color: #5E6163;
     background-color: rgba(255, 255, 255, 0.7)
 }
 
-
+.reserveren_button:focus {
+    background-color: rgba(255, 255, 255, 0.7)
+}
+.reserveren_button a:focus {
+    background-color: none;
+}
 /* footer */
 footer {
     padding-top: 25px;
